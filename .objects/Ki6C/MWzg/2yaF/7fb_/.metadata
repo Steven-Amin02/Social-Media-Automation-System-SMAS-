@@ -1,0 +1,14 @@
+﻿{
+  "Name": "كلمه المرور",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Id": "7fb_LQriokmslpz7fxjbgg",
+  "Reference": "aFzI3n0Yi0y89QDoYmAtZA/7fb_LQriokmslpz7fxjbgg",
+  "ParentRef": "aFzI3n0Yi0y89QDoYmAtZA/2yaFlVPNF0S99S3o1-n5oQ",
+  "Created": "2026-05-17T20:46:50.1859285Z",
+  "Updated": "2026-05-17T20:46:50.1859285Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.30.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lcDaOaSowk-YmkF2dObYcg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="quora.com/profile/Omar-8080" DesignTimeRectangle="290, 265, 150, 150" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='2' isleaf='1' parentid='mainContent' tag='DIV' /&gt;" Guid="6429555e-0030-46e2-89a0-1f1563e6e8d5" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Omar - Quora' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7fc5ae43813eab81186b61e6fc093b59.jpg" xmlns="">0oZ3zCDyWUkSfe68sVIntJw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

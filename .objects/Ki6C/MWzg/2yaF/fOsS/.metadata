@@ -1,0 +1,13 @@
+﻿{
+  "Name": "العربيةمكان لتبادل المع…",
+  "Type": "Element",
+  "Id": "fOsSW12LcEGOPI3eg1Rw9w",
+  "Reference": "aFzI3n0Yi0y89QDoYmAtZA/fOsSW12LcEGOPI3eg1Rw9w",
+  "ParentRef": "aFzI3n0Yi0y89QDoYmAtZA/2yaFlVPNF0S99S3o1-n5oQ",
+  "Created": "2026-05-17T20:43:56.2621371Z",
+  "Updated": "2026-05-17T20:43:56.2621371Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.30.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

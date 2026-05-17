@@ -1,0 +1,14 @@
+﻿{
+  "Name": "البريد الإلكتروني",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "NQYRBM52IU-P1RoY5oIRGA",
+  "Reference": "aFzI3n0Yi0y89QDoYmAtZA/NQYRBM52IU-P1RoY5oIRGA",
+  "ParentRef": "aFzI3n0Yi0y89QDoYmAtZA/2yaFlVPNF0S99S3o1-n5oQ",
+  "Created": "2026-05-17T20:42:55.4424453Z",
+  "Updated": "2026-05-17T20:42:55.4424453Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.30.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

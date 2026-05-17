@@ -1,0 +1,233 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="LinkedIn_Login" this:LinkedIn_Login.in_Password="!2Qwerty" this:LinkedIn_Login.in_Email="omoswaken@gmail.com" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:this="clr-namespace:" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="in_Password" Type="InArgument(x:String)" />
+    <x:Property Name="in_Email" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>LinkedIn_Login_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="LinkedIn_Login" sap:VirtualizedContainerService.HintSize="876.4000000000001,1605.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="520,1582.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Edge Microsoft Rewards" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486.4,1499.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="d7a426b5-8a7e-4327-9abd-11f34e38bdea" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484.8,1305.6" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NCheckState DisplayName="Check Not Logged In" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="451.2,1245.6" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="d7a426b5-8a7e-4327-9abd-11f34e38bdea" Timeout="3" Version="V5">
+                <uix:NCheckState.IfExists>
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,736" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayBefore="2" DelayBetweenKeys="0.1" DisplayName="Type Into Email" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,245.6" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="HardwareEvents" ScopeIdentifier="d7a426b5-8a7e-4327-9abd-11f34e38bdea" Text="[in_Email]" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="quora.com" ContentHash="F6QFDuTb4kyOj9zKFAQ6DQ" DesignTimeRectangle="1010, 564, 355, 26" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='email' tag='INPUT' type='email' class='q-input qu-fontSize--regular qu-lineHeight--regular TextInput___StyledInput-sc-94591a0e-0 iKIxtV focus-visible' placeholder='Your email' aaname='Email' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f8c76487-97bf-40bf-bf06-808602007e30" InformativeScreenshot="9b81c1f4ba68518981e3c6dc3f7ad7af.jpg" Reference="aFzI3n0Yi0y89QDoYmAtZA/NQYRBM52IU-P1RoY5oIRGA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Quora - A place to share knowledge and better understand the world' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="999, 519, 42, 23" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='q-text qu-dynamicFontSize--small qu-bold' aaname='Email' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Email' /&gt;" Guid="88906bc1-a31a-4959-b3c3-e62fa83b4340" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayBefore="2" DelayBetweenKeys="0.1" DisplayName="Type Into Password" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,245.6" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="HardwareEvents" ScopeIdentifier="d7a426b5-8a7e-4327-9abd-11f34e38bdea" Text="[in_Password]" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="quora.com" ContentHash="bsMGZfekqkKFJv_xFmM3ew" DesignTimeRectangle="1010, 671, 355, 26" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='password' tag='INPUT' type='password' class='q-input qu-fontSize--regular qu-lineHeight--regular TextInput___StyledInput-sc-94591a0e-0 iKIxtV' placeholder='Your password' aaname='Password' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="8ac55218-9ff4-40b2-b68e-af396b1be0c4" InformativeScreenshot="281b25225eb048ba2f830533ac5ab94f.jpg" Reference="aFzI3n0Yi0y89QDoYmAtZA/7fb_LQriokmslpz7fxjbgg" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Quora - A place to share knowledge and better understand the world' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="999, 627, 72, 22" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Password' tag='LABEL' type='' class='q-text qu-dynamicFontSize--small qu-bold' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Password' /&gt;" Guid="feb10fda-d423-43d7-8fc4-85344c7c4f35" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" CursorMotionType="[UiPath.UIAutomationNext.Enums.CursorMotionType.Smooth]" DelayBefore="1" DisplayName="Click 'Login'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,184.8" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="d7a426b5-8a7e-4327-9abd-11f34e38bdea" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="quora.com" ContentHash="KXrp0fphI0KVjPwZvps83A" DesignTimeRectangle="1282, 732, 95, 48" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='q-click-wrapper b17i7nxr b1l8alrs bobc9nh b1cg7ppz c1nud10e qu-active--textDecoration--none qu-focus--textDecoration--none qu-borderRadius--pill qu-alignItems--center qu-justifyContent--center qu-whiteSpace--nowrap qu-userSelect--none qu-display--inline-flex qu-bg--blue qu-tapHighlight--white qu-textAlign--center qu-cursor--pointer qu-hover--textDecoration--none' aaname='Login' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Login' /&gt;" Guid="8ccdef36-2574-4f09-ad6b-244f4ab794b0" InformativeScreenshot="6230542f2c812fc63aae5df5234c905b.jpg" Reference="aFzI3n0Yi0y89QDoYmAtZA/5j8yBUO8Okan_V0Uftn58w" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Quora - A place to share knowledge and better understand the world' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target DesignTimeRectangle="1307, 745, 45, 23" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Login' type='' parentid='root' tag='DIV' class='q-text qu-ellipsis qu-whiteSpace--nowrap' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Login' /&gt;" Guid="ba748bda-d498-4e30-b8f6-9561761f3227" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </uix:NCheckState.IfExists>
+                <uix:NCheckState.IfNotExists>
+                  <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="449.6,173.6" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="416,113.6" sap2010:WorkflowViewState.IdRef="Delay_2" />
+                  </Sequence>
+                </uix:NCheckState.IfNotExists>
+                <uix:NCheckState.Target>
+                  <uix:TargetAnchorable BrowserURL="quora.com" ContentHash="GqDIyhLmV0yWHTItEn7F0g" DesignTimeRectangle="532, 253, 875, 684" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='root' tag='DIV' /&gt;" Guid="bf31f1bc-981e-41b6-a9a1-40fdd74d06e6" InformativeScreenshot="47882956b91bd98d3b4523a03eccb8f4.jpg" Reference="aFzI3n0Yi0y89QDoYmAtZA/4xa1_HRviUO8141WtxH8JA" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Quora - A place to share knowledge and better understand the world' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                </uix:NCheckState.Target>
+              </uix:NCheckState>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.OCREngine>
+          <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+            <ActivityFunc.Argument>
+              <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+            </ActivityFunc.Argument>
+          </ActivityFunc>
+        </uix:NApplicationCard.OCREngine>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Edge" ContentHash="ss__6-AT2EeeDIF5-DQgyg" IconBase64="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" InformativeScreenshot="1f14c2aa152336da68ccb4da39ff0c70.jpg" Reference="aFzI3n0Yi0y89QDoYmAtZA/2yaFlVPNF0S99S3o1-n5oQ" Selector="&lt;html app='msedge.exe' title='Quora - مكان لتبادل المعرفة وفهم العالم بشكل أفضل' /&gt;" Url="https://www.quora.com/?prevent_redirect=1" Version="V2">
+            <uix:TargetApp.Arguments>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.Arguments>
+            <uix:TargetApp.WorkingDirectory>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.WorkingDirectory>
+          </uix:TargetApp>
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>
