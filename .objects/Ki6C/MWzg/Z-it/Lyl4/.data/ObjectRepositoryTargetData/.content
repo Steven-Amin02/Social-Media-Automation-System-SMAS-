@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="UmKt0SsD5keJxhusKfBVNA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="SUMqqvhoAEy467YbEx1wnw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="quora.com" DesignTimeRectangle="639, 893, 30, 30" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='3' parentid='modal_footer_portal_container' tag='svg' /&gt;" Guid="791b4490-04f2-400f-b2e8-a5602b6bcbc2" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Quora' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="c2dca03f8e5334b36ef33c209fa6245c.jpg" xmlns="">0ldY4u3B0xk6lYHTDyvhLzw</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="quora.com" DesignTimeRectangle="639, 892, 30, 30" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='3' parentid='modal_footer_portal_container' tag='svg' /&gt;" Guid="feb96835-10b8-4f3e-af5d-d1f0b9eb25d7" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Quora' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f261abca5359fe2cb1b08403b82f51ee.jpg" xmlns="">0KOGLzP1aw0uCiTK928KROQ</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

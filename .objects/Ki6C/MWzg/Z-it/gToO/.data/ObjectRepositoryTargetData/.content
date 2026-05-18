@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="raz1A2L_BkCB_0AC4HwyaA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="iQmYt0kptkWLPQh8JEEavw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="quora.com" DesignTimeRectangle="534, 460, 851, 325" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' parentid='root' tag='DIV' /&gt;" Guid="8f954b6d-602c-4ae0-9677-1c768ab4601f" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Quora' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="3fe14f7bb9d88f13b692a23bcfcb133a.jpg" xmlns="">0BfVQPjUrkkKSF2L9Ql7P9w</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="quora.com" DesignTimeRectangle="534, 459, 851, 325" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' parentid='root' tag='DIV' /&gt;" Guid="548ebedc-cb0c-4c5f-b10c-2d3ab599c8b7" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Quora' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="31e3d825bb69140b0f4b8b848e7d0c14.jpg" xmlns="">0R8RyRmWXlk6ApE1yKkYtcw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">TypeInto</x:String>
   </ObjectRepositoryTargetData.Data>
